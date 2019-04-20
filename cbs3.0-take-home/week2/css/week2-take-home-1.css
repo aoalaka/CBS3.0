@@ -59,7 +59,7 @@ li a:active {
 .banner {
   width: 100%;
   min-height: fit-content;
-  padding: 150px 16px 100px 1.3em;
+  padding: 150px 0git  100px 1.3em;
   background: linear-gradient(180deg,whitesmoke, whitesmoke,whitesmoke, rgba(31, 5, 104, 0.3))
 }
 .wrapper {
@@ -116,7 +116,7 @@ p#sign-up-btn a {
 
 div.courses-div {
   background: whitesmoke;
-  padding: 100px 16px 100px 1.3em;
+  padding: 100px 0 100px 1.3em;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-transform: uppercase;
@@ -138,7 +138,7 @@ ul.courseList li {
   color: #292b2b;
   text-align: center;
   font-size: 1.5em;
-  padding: 100px 16px 100px 1em;
+  padding: 100px 0 100px 1em;
 }
 
 .scheduleList {
