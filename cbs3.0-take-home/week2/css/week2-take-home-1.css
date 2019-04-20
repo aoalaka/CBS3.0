@@ -18,14 +18,14 @@ html,body {
   letter-spacing: 0.5;
   font-weight: bolder;
   display: inline;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 ul.navLinks {
   font-size: 1em;
   float: right;
   position: relative;
-  top: 0px;
-  right: 10px;
+  top: 5px;
+  right: 10px;  
 }
 ul.navLinks li {
   display: inline-flex;
@@ -33,6 +33,7 @@ ul.navLinks li {
   font-family: 'Courier New', Courier, monospace;
   margin-right: 10px;
   text-align: right;
+  margin-bottom: 10px;
 }
 li a {
   text-decoration: none;
@@ -58,21 +59,22 @@ li a:active {
 .banner {
   width: 100%;
   min-height: fit-content;
+  padding: 150px 16px 100px 1.3em;
   background: linear-gradient(180deg,whitesmoke, whitesmoke,whitesmoke, rgba(31, 5, 104, 0.3))
 }
 .wrapper {
   margin: auto 0;
+  width: fit-content;
   font-size: 1.8em;
-  padding: 150px 0 100px 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(31, 5, 104);
   overflow: hidden;
 }
 #hook {
   color: white;
-  background: rgb(31, 5, 104);
   display: block;
-  width: max-content;
+  background: rgb(31, 5, 104);
+  width: fit-content;
   margin-top: 5px;
 }
 h1 + h2 {
@@ -114,7 +116,7 @@ p#sign-up-btn a {
 
 div.courses-div {
   background: whitesmoke;
-  padding: 2rem 0;
+  padding: 100px 16px 100px 1.3em;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-transform: uppercase;
@@ -134,15 +136,17 @@ ul.courseList li {
 .schedule {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #292b2b;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
-  padding: 2rem;
+  padding: 100px 16px 100px 1em;
 }
+
 .scheduleList {
   float: none;
 }
 ul.scheduleList li {
   color: inherit;
+  display: block;
   text-align: inherit;
   font-family: inherit;
   margin-bottom: .5em;
@@ -155,7 +159,7 @@ ul.scheduleList li {
   background-color: rgb(31, 5, 104);
   font-size: 1em;
   color: white;
-  padding: 25px 0;
+  padding: 25px;
 }
 ul.navLinks-bottom li {
   display: inline-flex;
