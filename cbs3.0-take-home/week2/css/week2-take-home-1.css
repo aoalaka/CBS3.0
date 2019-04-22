@@ -59,11 +59,10 @@ li a:active {
 .banner {
   width: 100%;
   min-height: fit-content;
-  padding: 150px 0git  100px 1.3em;
+  padding: 150px 0  100px 1.3em;
   background: linear-gradient(180deg,whitesmoke, whitesmoke,whitesmoke, rgba(31, 5, 104, 0.3))
 }
 .wrapper {
-  margin: auto 0;
   width: fit-content;
   font-size: 1.8em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
