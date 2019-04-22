@@ -1,0 +1,32 @@
+body {
+  background: url(https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1514&q=80);
+}
+h1 {
+  color: #080808;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #DDE4E4,
+               1px 1px 1px #DDE4E4,
+               1px 1px 1px #DDE4E4;
+}
+h3 {
+  font-size: 1.8em;
+  font-family: 'Faster One', cursive;
+  color: #ED871F;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #58727B,
+               1px 1px 2px rgb(21, 32, 1),
+               1px 1px 2px rgb(21, 32, 1);
+}
+h3 + a {
+  font-family: 'Faster One', cursive;
+  margin-top: 1em;
+  box-shadow: 1px 1px 1px 1px #080808;
+}
+
+#content {
+  font-family:'Permanent Marker', cursive;
+  text-align: center;
+  padding-top: 10%;
+}
+
