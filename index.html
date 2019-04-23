@@ -7,20 +7,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Coding Brosters 3.0</title>
   <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <style>
     body {
       font-family: 'Heebo', sans-serif;
       color: #3C484E;
-      background-color: aliceblue;
+      background-color: white;
+      font-weight: bolder;
     }
 
     .header {
       text-align: center;
-      line-height: 50px;
     }
 
     h1 {
-      font-size: 70px;
+      font-size: 5em;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+
+    li {
+      display: block;
     }
 
     a {
@@ -31,22 +43,60 @@
     a:hover {
       text-decoration-line: underline;
     }
+    /* div {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    } */
+    .container-1 {
+      /* border: 1px solid rgba(0, 0, 0, 0.3); */
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
   </style>
 </head>
 
 <body>
-  <div class="header">
-    <h1>Coding Brosters 3.0</h1>
-    <h2>Here, you can find the links to various class challenges and take home</h2>
-    <p>Remember to click on the appropriate link</p>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="header">
+      <h1>Coding Brosters 3.0</h1>
+      <h2>Here, you can find the links to all take-home.</h2>
+      <p>Remember to click on the appropriate link</p>
+    </div>
+    <hr>
   </div>
-  <hr>
-  <ul>
-    <li><a href="cbs3.0-take-home/week1-take-home-1.html">Week 1 Take Home 1</a></li>
-    <li><a href="cbs3.0-take-home/week1-take-home-2.html">Week 1 Take Home 2</a></li>
-    <li><a href="cbs3.0-take-home/week1-take-home-3.html">Week 1 Take Home 3</a></li>
-    <li><a href="cbs3.0-take-home/week2/week2-take-home-1.html">Week 2 Take Home 2</a></li>
-  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="container-1">
+          <h2><i class="fas fa-list-alt"></i> Week 1</h2>
+          <ul>
+            <li><a href="cbs3.0-take-home/week1-take-home-1.html">Take Home 1</a></li>
+            <li><a href="cbs3.0-take-home/week1-take-home-2.html">Take Home 2</a></li>
+            <li><a href="cbs3.0-take-home/week1-take-home-3.html">Take Home 3</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="container-1">
+          <h2><i class="fas fa-list-alt"></i> Week 2</h2>
+          <ul>
+            <li><a href="cbs3.0-take-home/week2/week2-take-home-1.html">Take Home 2</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="container-1">
+          <h2><i class="fas fa-list-alt"></i> Week 3</h2>
+          <ul>
+            <li><a href="cbs3.0-take-home/week3/week3-take-home-1.html">Take Home 1</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> `
+  </div>
 </body>
 
 </html>
