@@ -1,9 +1,38 @@
-
 #nav {
   text-align: center;
   min-height: 10vh;
   background-color: rgb(31, 5, 104);
 }
+
+button {
+  color: #fff !important;
+  border-radius: 5px;
+  background-color: rgb(31, 5, 104);
+  font-size: 14px;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+button .circle {
+  position: absolute !important;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+
 #brand {
   color: white;
   letter-spacing: 0.5;
@@ -18,6 +47,7 @@ ul.navLinks li {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
 li a {
   text-decoration: none;
   color: inherit;
@@ -29,6 +59,7 @@ li a {
   transition-timing-function: ease-out;
   transition-duration: .2s;
 }
+
 li a:hover {
   background: white;
   color: rgb(31, 5, 104);
@@ -37,17 +68,20 @@ li a:hover {
 }
 
 .banner {
-  background: linear-gradient(180deg,whitesmoke, whitesmoke,whitesmoke, rgba(31, 5, 104, 0.3));
+  background: linear-gradient(180deg, whitesmoke, whitesmoke, whitesmoke, rgba(31, 5, 104, 0.3));
 }
+
 #banner-content {
-  padding-top: 5%; 
+  padding-top: 5%;
   padding-bottom: 14%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(31, 5, 104);
 }
+
 #interested {
   font-size: 3.5em;
 }
+
 #hook {
   margin-top: 1%;
   margin-bottom: 3%;
@@ -55,37 +89,44 @@ li a:hover {
   display: block;
   background: rgb(31, 5, 104);
   width: fit-content;
-  font-size:inherit;
+  font-size: inherit;
 }
-h1 + h2 {
+
+h1+h2 {
   color: blue;
 }
+
 h4 {
   letter-spacing: 1.5px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 span.organizer {
   color: green;
 }
+
 span.organizer:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
 #sign-up-btn {
-  border: 1px solid rgb(31, 5, 104);;
+  border: 1px solid rgb(31, 5, 104);
+  ;
   background: transparent;
   width: fit-content;
   padding: 15px 30px;
   color: rgb(31, 5, 104);
   text-align: center;
 }
+
 #sign-up-btn:hover {
   color: rgb(255, 255, 255) !important;
   background: rgb(31, 5, 104);
   box-shadow: 1px 1px 1px 1px #4f4f50;
 }
+
 #sign-up-btn:active {
   transform: translate(1px, 1px);
 }
@@ -107,12 +148,18 @@ ul.courseList li {
   font-size: inherit;
   text-align: center;
 }
+
 #schedule {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #292b2b;
+  color: #404141;
   text-align: center;
-  font-size: 1.5em;
-  padding: 10% 0 10% 0;
+  padding: 7% 0 7% 0;
+  font-size: 2em;
+  font-weight: 100 !important;
+}
+
+#schedule h1 {
+  font-size: 2em;
 }
 
 ul li {
@@ -122,6 +169,7 @@ ul li {
   font-family: inherit;
   margin-bottom: .5em;
 }
+
 #footer {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
@@ -132,6 +180,7 @@ ul li {
   color: white;
   padding: 25px;
 }
+
 ul.navLinks-bottom li {
   display: inline-flex;
   color: white;
